@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  background-color: #d3d3d3;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  padding: 16px;
+}
+
+header button {
+  margin-left: 16px;
+}
+
+form {
+  padding: 24px 0;
+  text-align: center;
+}
+
+input,
+button {
+  padding: 8px;
+}
+
+input {
+  background-color: white;
+}
+
+button {
+  cursor: pointer;
+}
+
+li {
+  text-decoration: none;
+  cursor: pointer;
+  display: none;
+}
